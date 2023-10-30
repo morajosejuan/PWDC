@@ -2,6 +2,8 @@
 siempre y cuando  o tenga uno espeficios que sea "#" o "." 
 Especificidad body div#contenedor-principal h1
 */
+
+
 .border{
     background-color: gold;
 }

@@ -4,3 +4,16 @@ div {
 p {
     background-color: DodgerBlue;
 }
+.parrafo1{
+    color: red;
+}
+
+#contenedor-principal{
+    background-color: blue;
+}
+div{
+    background-color: red;
+}
+.border{
+    border: 5px solid black;
+}

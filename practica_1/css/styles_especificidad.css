@@ -1,0 +1,25 @@
+/*El orden de aplicar los estilos es de arriba hacia abajo 
+siempre y cuando  o tenga uno espeficios que sea "#" o "." 
+Especificidad body div#contenedor-principal h1
+*/
+.border{
+    background-color: gold;
+}
+div {
+    background-color: red;
+}
+
+
+div{
+    background-color: green;
+}
+ body div#contenedor-principal h1{
+    color: green;
+ }
+ h1{
+    color:red;
+ }
+ 
+ div.border p.border{
+    border: 3px solid black;
+ }

@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ol, ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: rgb(49, 45, 38);
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+}
+header a i{
+    color: rgb(241, 235, 235);
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+header nav ul li a {
+   color: rgb(243, 235, 235);
+}
+.seccion-1 {
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    
+    
+}
+.seccion-2 img{
+    width: 100%;
+}
+footer{
+    background-color: rgb(49, 45, 38);
+    width: 100%;
+    padding: 1em;
+    
+}    
+
+footer ul li a {
+    color: white;
+    font-size: 1em;
+    padding: 0.5em;
+}
+footer h3{
+    color: #eeeeee;
+    width: 100%;
+}
+i.fa-solid.fa-heart.fixed{
+    color: #ebcb00;
+    position: fixed;
+    bottom: 22px;
+    right: 39px;
+}
+.seccion-3{
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}
+.portafolio{
+    display: flex;
+    border-radius: 25% 10%;
+    margin: 5px;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    flex-wrap: wrap;
+    
+}
+.seccion-3 h4{
+    color: #ebcb00;
+    text-align: left;
+    justify-content: center;
+    font-size: 26px;
+}
+.a_portafolio{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ebcb00;
+    
+}
+
+@media(max-width: 768px){
+
+    
+    .seccion-1 {
+       
+        flex-wrap: wrap;
+  
+        
+    }
+    .acerca-de{
+        align-items: center;
+        text-align: center;
+    }
+
+    
+}

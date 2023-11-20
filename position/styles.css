@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 1200px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.ejemplo {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: 50px 0;
+    background-color: #d6e9fe;
+}
+.item {
+    display: block;
+}
+.item-relative{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.container .absolute{
+    position: relative;
+}
+
+.item-fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

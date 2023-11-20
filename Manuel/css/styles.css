@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+ol, ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: #247B41;
+    align-items: center;
+    justify-content: space-between;
+
+}
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+}
+header a i{
+    color: white;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+header nav ul li a {
+   color: white;
+}
+
+footer{
+    display: flex;
+    background-color: #247B41;
+    align-items: center;
+    justify-content: space-between;
+
+}
+footer a i{
+    color: white;
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+footer  ul li a {
+    color: white;
+ }
+
+ footer ul {
+    display: flex;
+    gap: 1.1em;
+}
+.seccion-2{
+    display: flex;
+    justify-items: center;
+}

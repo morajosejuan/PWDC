@@ -14,6 +14,7 @@ header{
     background-color: aquamarine;
     align-items: center;
     justify-content: space-between;
+    
 
 }
 header nav ul {
@@ -21,11 +22,11 @@ header nav ul {
     gap: 1.1em;
 }
 header a i{
-    color: white;
+    color: rgb(14, 2, 2);
     font-size: 3em;
     padding: 0.5em;
 }
 
 header nav ul li a {
-   color: white;
+   color: rgb(17, 3, 3);
 }
